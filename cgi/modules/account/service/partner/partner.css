@@ -1,0 +1,16 @@
+
+/* info */
+#info fieldset.wrapper { float:left; padding:8px 32px 16px 32px; margin:20px 40px; border:0; border-top:3px solid #ff0000; min-width:200px; }
+#info fieldset.wrapper.first { margin-left:0; }
+#info fieldset.wrapper legend { padding:0 12px; font-weight:bold; font-style:italic; font-size:140%; }
+
+/* contacts */
+#partner-contacts { width: 90%; margin: 10px 20px;}
+#partner-contacts td { padding: 3px 10px;}
+#partner-contacts tr { background-color: #c2dee3; }
+#partner-contacts thead tr { background-color: #0F5672; color: #fff;}
+#partner-contacts tr:nth-child(even) { background-color: #CEEDF2;}
+
+#tasks fieldset{
+	margin: 15px 15px 0 0;
+}

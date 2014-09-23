@@ -1,0 +1,6 @@
+
+div.topbox { position:absolute; border:1px solid #000000; float:left; background:#ffffff; }
+div.topbox div.topbox_head { position:relative; cursor:move; height:24px; width:100%; border-bottom:1px solid #000000; text-align:left; }
+div.topbox div.topbox_head span.topbox_title { padding-left:8px; font-weight:bold; }
+div.topbox div.topbox_close { position:absolute; cursor:pointer; top:-3px; right:4px; font-size:14px courier; padding:2px; }
+div.topbox div.topbox_body { position:relative; height:100%; width:100%; padding:16px 8px 8px 8px; }

@@ -1,0 +1,7 @@
+
+div.box { border:1px solid #000000; z-index:1; background-color:#ffffff; padding:0; }
+div.box div.handle { border-bottom:1px solid #000000; padding:8px; margin:0; cursor:move; }
+div.box div.handle .title { float:left; margin-top:2px; }
+div.box div.handle .minimize, div.box div.handle .close { float:right; cursor:pointer; padding:0 4px; }
+div.box div.handle .minimize:hover, div.box div.handle .close:hover { background-color:#efefef; }
+div.box div.content { padding:8px; margin:0; }

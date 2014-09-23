@@ -1,0 +1,11 @@
+
+fieldset.contact { float:left; padding:12px; margin:12px; border:1px solid #000000; }
+fieldset.contact legend { padding:0 8px; font-weight:bold; font-style:italic; }
+fieldset.contact table { margin-bottom:12px; }
+fieldset.contact table tr { vertical-align:top; }
+fieldset.contact table td.field { font-weight:bold; text-align:right; }
+fieldset.contact table td.value { max-width:300px; }
+fieldset.contact table textarea { width:250px; height:100px; }
+fieldset.contact div.edit_buttons { display:none; }
+
+.end_float:after { content:"-"; display:block; height:0; clear:both; visibility:hidden; }

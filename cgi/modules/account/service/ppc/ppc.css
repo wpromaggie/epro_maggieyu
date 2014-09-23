@@ -1,0 +1,73 @@
+
+td, th { padding: 1px 3px; }
+
+/* cdl */
+#client_dashboard_data_container { padding:8px; }
+
+.client_dashboard_data { padding:0; font:12px arial; border-collapse:collapse; }
+.client_dashboard_data td, .client_dashboard_data th { padding:1px 3px; border:1px solid #000000; }
+.client_dashboard_data td { text-align:right; white-space:nowrap; }
+.client_dashboard_data thead td, .client_dashboard_data tfoot td { font-weight:bold; }
+
+/* info */
+#info td { padding:2px 4px; }
+#info td:first-child { text-align:right; padding-right:8px; }
+#info input[type="text"] { width:200px; }
+#info select { width:204px; }
+
+#info #_notes { margin-left:20px; float:left; }
+#info #notes_input textarea { width:400px; height:300px; }
+
+/* manage conv types */
+#manage_conv_types #no_conv_data_msg { width:600px; }
+
+/* track */
+
+#track fieldset { float:left; padding:8px 32px 8px 16px; margin:20px; border:3px dotted #a0a0a0; min-width:200px; }
+#track fieldset legend { padding:0 12px; font-weight:bold; font-style:italic; font-size:120%; }
+#track fieldset input[type=submit] { font:10px georgia; padding:1px 3px; }
+
+/* track/browse */
+#track #browse td.label { font-weight:bold; white-space:nowrap; }
+#track #browse #crumbs_table td { padding-top:12px; }
+#track #browse #crumbs_table a { text-decoration:none; padding:3px 8px 3px 8px; border:1px solid #ffffff; }
+#track #browse #crumbs_table a.on { border:1px solid #000000; background-color:#efefef; }
+#track #browse #crumbs_table .table_nav { margin:24px 0 8px 0; }
+#track #browse #crumbs_table .details_table td { padding-top:1px; }
+#track #browse #crumbs_table .details_table .detail_num { color:#a08000; font-weight:bold; }
+#track #browse .ad_for_test { cursor:pointer; padding:2px; margin:2px; border:2px solid #ffffff; }
+#track #browse .ad_for_test.on { border:2px solid #009900; }
+
+/* trackify */
+#track #trackify fieldset { min-height:0; min-width:0; }
+#track #trackify fieldset div { clear:both; }
+#track #trackify div.include_deleted { margin-top:12px; }
+
+#view_convs #convs_table tr:hover { background-color:#ccffcc; }
+#view_convs #convs_table th { white-space:nowrap; }
+#view_convs #convs_table td { font:11px georgia; white-space:nowrap; }
+
+#conv_code ul { list-style: none; padding-left:8px; }
+#conv_code ul.first { margin-top:32px; }
+#conv_code li { padding-left:8px; }
+
+#track_changes .details_table_container { float:left; }
+#track_changes .details_table_actions { float:left; }
+#track_changes .selected_row_info { float:left; background-color:#f7b6aa; margin:6px 0; font:12px georgia; padding:4px 8px; }
+#track_changes .selected_row_actions { float:left; padding:6px 0 0 8px; }
+#track_changes .selected_row_actions a { float:left; margin:0 6px; }
+#track_changes .details_row_selected { background-color:#f7b6aa; margin:6px 0; }
+#track_changes .details_row_selected td { font:12px georgia; }
+
+#track_types textarea { width:400px; height:150px; }
+
+#facebook_upload ol { margin:12px 0 12px 48px; font-size:12px; }
+#facebook_upload tbody.changes tr td { font-size:11px; padding:1px 3px; }
+
+/* ad data */
+#ad_data #data_table tr { vertical-align:middle; }
+#ad_data #data_table div.ad { text-decoration:none; border:1px solid #ffffff; padding:5px; cursor:pointer; }
+#ad_data #data_table div.ad:hover { border:1px solid #e0e0e0;  }
+#ad_data #data_table div.ad .title { text-decoration:underline; color:#0000ff; }
+#ad_data #data_table div.ad .desc { text-decoration:none; color:#000000; font-size:80%; }
+#ad_data #data_table div.ad .disp_url { text-decoration:none; color:#0e8f0e; }

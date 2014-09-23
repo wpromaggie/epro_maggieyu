@@ -1,0 +1,35 @@
+
+/* new ww account */
+#new_order td.header { font:16px helvetica; font-weight:bold; text-decoration:underline; padding:20px 0 4px 0; }
+#new_order #outer_order_table > tr > td:first-child { width:150px; }
+#new_order #outer_order_table tr td#products_td { width:auto; }
+#new_order .add_product { margin:2px 8px; padding:2px 8px; font-size:18px; }
+#new_order .prod_table { float:left; }
+#new_order .prod_table .comments { width:200px; height:200px; }
+#new_order .w_coupons p { margin:6px; }
+
+/* partners and sources */
+#partners_and_sources .sources_wrapper { display:none; margin:0 0 16px 16px; }
+
+#partners_and_sources li { list-style-type:none; }
+
+#partners_and_sources div[status="Off"] a { color:#c0c0c0; }
+#partners_and_sources div[status="Off"] .source_id { color:#c0c0c0; }
+
+#partners_and_sources div[status="Off"] a:hover { color:#ff0000; }
+#partners_and_sources .obj_links a { font-size:10px; }
+
+/* reps */
+#reps td { padding:2px 12px; }
+
+/* accounting */
+#accounting #cnt { margin:12px; }
+#accounting #accounting_table { margin-top:20px; }
+
+#accounting .breakdown { margin:16px 2px; }
+
+/* new order */
+#new_order #big_submit { font-size:24px; font-weight:bold; padding:8px 16px; cursor:pointer; }
+#new_order .prod_header { font-size:24px; font-weight:bold; padding:8px 16px; }
+#new_order #products_td { padding-top:8px; }
+#new_order input.billing_edit { width:80px; }

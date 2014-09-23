@@ -1,0 +1,44 @@
+
+
+#info td { padding:2px 4px; }
+
+#show_badge_form{
+    overflow: hidden;
+}
+
+#badge_form fieldset {
+    margin: 10px;
+    padding: 10px;
+}
+
+#badge_form fieldset div {
+    margin: 5px;
+}
+
+#badge_form label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 7px;
+}
+
+#badge_form {
+    margin-bottom: 25px;
+}
+
+#badge_code {
+    float: left;
+    width: 500px;
+}
+#badge_preview {
+    float: left;
+}
+
+ul#badges {
+    overflow: hidden;
+    list-style: none;
+}
+ul#badges li {
+    float: left;
+    margin: 20px;
+}

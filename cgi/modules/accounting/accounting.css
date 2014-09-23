@@ -1,0 +1,28 @@
+
+#payments_form td { padding:5px 4px; }
+
+#highlight_dates_tr { display:none; }
+#highlight_dates_legend { display:none; margin-left:16px; }
+.first_payment { background-color:#aaffaa !important; }
+.final_payment { background-color:#ffaaaa !important; }
+
+#date_type { float:left; }
+
+#ppc_spend .note { font-size:11px; margin:12px 4px; max-width:400px; }
+#ppc_spend .data_slice { margin:16px 0; }
+
+/* types - items */
+#w_new_item { margin-top:16px; }
+#items { margin:16px 0 0 8px; }
+
+/* dept types */
+#dept_types #edit_mapping_table td { padding-top:6px; }
+#dept_types #edit_mapping_table td:first-child { padding-right:12px; font-weight:bold; }
+#dept_types #edit_mapping_table input[type="radio"], #dept_types #edit_mapping_table input[type="checkbox"] { margin-right:8px; }
+#dept_types #edit_mapping_table #dept_changes .dept_change { margin:1px 4px; }
+#dept_types #edit_mapping_table #dept_changes #w_new_depts span { background-color:#99ff99; }
+#dept_types #edit_mapping_table #dept_changes #w_removed_depts span { background-color:#ff9999; }
+
+#dept_types #w_cur_mappings { margin-top:16px; }
+#dept_types #w_cur_mappings .cur_mapping { float:left; margin:8px; border-collapse:collapse; }
+#dept_types #w_cur_mappings .cur_mapping td { border:1px solid #000000; }

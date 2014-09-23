@@ -1,0 +1,29 @@
+
+div.wpro_table_wrapper { float:left; }
+
+div.wpro_table_nav { float:right; margin:4px; }
+div.wpro_table_nav a { text-decoration:none; }
+div.wpro_table_nav_back { float:left; width:80px; }
+div.wpro_table_nav_page_select { float:left; }
+div.wpro_table_nav_forward { float:right; text-align:right; width:80px; }
+
+table.wpro_table thead tr { background-color:#c0c0c0; }
+table.wpro_table thead th a { color:#000000; text-decoration:none; }
+table.wpro_table thead th.on a { color:#ffffff; text-decoration:underline; }
+table.wpro_table thead th a:hover { color:#5f5f5f; text-decoration:underline; }
+
+table.wpro_table tbody tr.even { background-color:#ffffff; }
+table.wpro_table tbody tr.odd { background-color:#efefef; }
+table.wpro_table tbody tr.even:hover { background-color:#ffffbb; }
+table.wpro_table tbody tr.odd:hover { background-color:#f3f3b0; }
+table.wpro_table tbody tr.even td.on { background-color:#f2f2f2; }
+table.wpro_table tbody tr.odd td.on { background-color:#e2e2e2; }
+table.wpro_table tbody tr.even:hover td.on { background-color:#f2f292; }
+table.wpro_table tbody tr.odd:hover td.on  { background-color:#e2e2a2; }
+
+table.wpro_table thead th { padding:3px 5px; font:bold 12px georgia; white-space:nowrap; }
+table.wpro_table tbody td { padding:1px 3px; font:12px arial; }
+
+table.wpro_table tr.totals { background-color:#78b8c2; }
+table.wpro_table tr.totals:hover { background-color:#5898a2; }
+table.wpro_table tr.totals td { color:#ffffff; padding:3px 5px; font:bold 12px georgia; white-space:nowrap; }

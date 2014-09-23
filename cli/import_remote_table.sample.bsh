@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# To use this AWESOMENESS:
+# 1) run: ssh-keygen -t dsa
+# 2) upload your public key (id_dsa.pub) to the server (use scp)
+# 3) log on to E2
+# 4) cat your key to the authorized_keys file (ex: cat xxx_dsa.pub >> ~/.ssh/authorized_keys)
+# 5) make sure that the "id_file" var below points to YOUR keyfile.
+
+# set path to private key file
+id_file=~/.ssh/id_dsa
+db=$1
+table=$2
+where_condition=$3
+
+if [[ -z $db || -z $table ]]; then
+	echo "Usage: $0 db table"
+	exit 1
+fi
+
+sql_file="${db}.${table}.mysql"
+
+set -x
+
+ssh -i ${id_file} dbcmthfy@e2.wpromote.com php cli/e2/db_file_ops.php export ${db} ${table} \"\" \"${where_condition}\" || exit
+
+scp -i ${id_file} dbcmthfy@e2.wpromote.com:cli/e2/tmp/${sql_file} tmp/ || exit
+
+php db_file_ops.php import ${db} ${table} || exit
+
+echo "import successfully completed"

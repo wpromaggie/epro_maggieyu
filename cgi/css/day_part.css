@@ -1,0 +1,43 @@
+
+#dp_container
+{
+	padding:8px;
+	empty-cells:show;
+	border-collapse:collapse;
+}
+
+.dp_row
+{
+	clear:both;
+	padding:32px 0;
+}
+
+.dp_on, .dp_off
+{
+	width:8px;
+	float:left;
+	height:100%;
+	cursor:pointer;
+	text-align:center;
+}
+
+.dp_on
+{
+	background:#389b38;
+}
+
+.dp_off
+{
+	background:#cd2d2d;
+}
+
+.dp_on:hover, .dp_off:hover
+{
+	background:#cacaca;
+}
+
+.dp_spacer
+{
+	background:#ffffff;
+	width:8px;
+}

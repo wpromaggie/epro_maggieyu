@@ -1,0 +1,166 @@
+/* Styles for SAP */
+.title {font-size:20px;}
+
+/* Fixes scrollable glitch when scrolled down the page */
+html {overflow:visible;}
+
+/* Table */
+table {}
+table th, table td {font: 12px arial; text-align: left;}
+table th {background-color: #0F5672; color: #FFFFFF; font-weight: bold; padding: 5px 8px;}
+table td {background-color: #C2DEE3; padding: 3px 10px; }
+table tr.even td {background-color: #CEEDF2;}
+
+.left { float: left; }
+.right { float: right; }
+
+.hidden { display: none; }
+
+/* Proposal Editing Controls*/
+#edit_display {float:left; width:150px; min-height:600px; border: 1px solid black; margin-right:25px; display:none;}
+#sap_edit_controls, #default_edit_controls, #edit_buffer {display:none;}
+
+div.add_package_var { padding: 5px; }
+.add_package_var div { margin-bottom: 5px; }
+.add_package_var label.tlabel {display:block; float:left; width:100px; text-align:right; margin-right:5px;}
+
+.box .edit_package { padding: 10px; }
+.box .edit_package select { margin-bottom: 7px; }
+
+#branch_edit {border: 1px solid black; margin:5px; padding:5px; background-color:white; cursor: default; }
+#branch_edit button.delete_branch_btn {float: right;}
+#branch_edit button.edit_pkg_btn {float:right;}
+
+.leaf_edit {margin-top:5px;}
+.leaf_edit button {float:right;}
+.leaf_edit button.save_btn, .leaf_edit button.cancel_btn {display:none;}
+.leaf_edit button.edit_pkg_btn {float:left;}
+
+select.pkg_select {width:100%;}
+
+.leaf textarea.edit_text {width:100%; display: none; max-width: 100%; height: 50px; }
+.leaf.par textarea.edit_text { height: 100px; }
+
+#contract_terms { width: 700px; position: relative; }
+#contract_terms textarea { text-align: left; padding: 3px; width: 100%; height: 300px; }
+
+/* Order Table*/
+#order_details { width: 850px; margin: 20px; font-size: 16px;  }
+#order_details #table_header { background-color: skyblue; border-top: 1px #AAA solid; font-weight: bold; cursor: default; }
+#order_details .table_row { overflow: hidden; border: 1px #AAA solid; border-top: none; cursor: pointer; }
+#order_details .td { float: left; padding: 8px 5px; width: 150px; }
+#order_details .td.desc { width: 350px; }
+#order_details .td.desc .note { font-size: 10px;}
+#order_details textarea { width: 250px; height: 70px; }
+#order_details .faded  { color: #ccc; }
+#order_details #table_footer .td { font-weight: bold; padding: 15px 5px; font-size: 18px; }
+
+#order_details .discount-strike { width: 100%; height: 2px; position: absolute; top: 17px; display: block; z-index: 10; background-color: red;}
+
+/* Package */
+#package #layout_select {  margin: 5px 5px 20px 5px; }
+#package #package_add { border: 1px solid #000; margin:5px 5px 20px 5px; padding:10px; }
+#package #package_select { }
+#package #package_edit, #package #package_actions { margin-top: 20px; width:600px; }
+#package .package_title { margin-bottom: 15px; }
+
+#package .package {border: 1px solid #000; margin:5px; padding:10px;}
+#package .package .title {font-size:19px; text-decoration:underline;}
+#package .package_var label.clabel { margin:0 8px 0 3px; }
+#package .package_var { border:1px solid #AAA; margin-bottom: 17px; }
+
+#package .package_var .package_head { background-color: skyblue; padding: 3px 6px; border-bottom: 1px solid #AAA; }
+#package .package_var .package_head .package_var_actions { float: right; }
+
+#package .package_var .var_info { float:left; padding: 5px; }
+#package .package_var .var_info div { padding: 5px; }
+
+#package .package_var label.tlabel {display:block; float:left; width:100px; text-align:right; margin-right:5px;}
+
+#package #package_actions { display: none; }
+#package #package_actions .delete_package_btn { float: right; }
+
+
+/* Proposal */
+#proposal {width:950px; font-size: 12px; margin: 0 auto; }
+
+#proposal .node {margin: 5px; padding: 6px; border: 1px solid #ccc; background-color:white; cursor: pointer; }
+#proposal .branch.editing {border-color:green; background-color:lightgreen;}
+#proposal .branch.editing>.node { border-color: black;  }
+#proposal .branch.editing>.node:hover { border-width: 2px; padding: 5px; }
+
+#proposal .branch.list_edit { background-color: skyblue; }
+
+#proposal div.node div.package {font-size:10px; font-variant:small-caps; float: right;}
+#proposal div.node div.node_type {font-size:10px; font-variant:small-caps; float: left;}
+#proposal div.node.leaf div.text {clear:both; padding: 7px 5px;}
+
+#proposal div.node.title-header div.text {font-size:18px; font-weight:bold;}
+#proposal div.node.title div.text { font-size:15px; font-weight:bold; }
+#proposal div.node.title-month div.text { font-size:15px; font-weight:bold; font-style: italic; }
+
+/* Prospect */
+#prospect .choose_prospect { margin-bottom: 15px; }
+
+#prospect #status { font-size: 16px; font-weight: bold;}
+
+#prospect #big_buttons { margin: 7px 0; }
+#prospect #big_buttons input { font:120% georgia; padding:8px; }
+
+#prospect #prospect_fields{ margin-bottom: 15px; }
+
+#prospect #package_chooser {float:left; width:200px; margin:10px 5px; padding:0px 5px 5px; border: 1px solid #0F5672}
+#prospect #package_chooser label {margin-left:3px;}
+#prospect #package_chooser input {vertical-align:middle;}
+#prospect #package_chooser .service-title { display: block; }
+
+#prospect #payment_type_alert { padding: 10px; color: red; font-weight: bold; font-size: 18px; border: 1px red solid; margin: 5px 0 10px 0; 
+	float: left; text-transform: capitalize;
+}
+#prospect #prospect_buttons {clear:both;}
+
+#prospect #package_vars .edit_package {border:1px solid black; padding:5px; margin:0 0 5px; width:500px;}
+/*
+#prospect #package_vars label {display:block; float:left; width:95px; text-align:right; margin-right:5px;}
+#prospect #package_vars input {clear: both;}
+*/
+
+#prospect .select-wrapper { margin: 10px 0; }
+#prospect .select-wrapper label { margin-right: 7px; }
+
+#prospect #client-select { width: 310px; }
+
+#prospect #matching-clients-alert {
+	padding: 10px; margin: 10px 0;
+	font-size: 12px;
+	background-color: pink;
+}
+
+#preview {width:750px;}
+#preview .node {margin: 5px; padding: 5px; border: 1px solid black; background-color:white;}
+#preview div.node.title div.text {font-size:18px; font-weight:bold;}
+
+#save_cancel { position: fixed; left: 0; bottom: 50%; padding: 20px; background-color: lightgreen; border: 2px solid black; z-index: 10; }
+#save_cancel.alert { background-color: red; }
+
+#service_options { margin: 0 0 0 25px; width:500px; float: left; }
+#service_options .edit_service, #w_client_option {border:1px solid #AAA; margin-bottom: 15px;}
+#service_options .edit_service .service_title, #w_client_option .title { float: left; margin-right: 10px; }
+
+#service_options .edit_service .service_head, #w_client_option .head { background-color: skyblue; padding: 6px; border-bottom: 1px solid #AAA; }
+#w_client_option .head { height:23px; }
+#w_client_option #w_client_existing_input { margin:3px 8px; display:none; }
+#service_options .edit_service .package_title { float: left; margin-right: 10px; }
+
+#service_options .edit_service .edit_package_vars, #w_client_option .body { padding: 15px 10px 10px 10px; }
+#service_options .edit_service .edit_package_vars .package_var { margin: 10px 0; }
+#service_options .edit_service .edit_package_vars .package_var .tlabel { width: 100px; text-align: right; display: inline-block; font-size: 12px; }
+#service_options .edit_service .edit_package_vars .package_var .tlabel.discount { width: 50px; }
+#service_options .edit_service .edit_package_vars .package_var input.edit_disc { width: 50px; }
+#service_options .edit_service .edit_package_vars .save_package_vars,
+#service_options .edit_service .edit_package_vars .add_package_var { float: right; margin: 10px 4px 0 4px; }
+
+#service_options .edit_package_select, #service_options .add_package_select { display: none; }
+
+#new_prospect input, #new_prospect select, 
+#prospect_fields input, #prospect_fields select { display: block; margin-bottom: 5px; }

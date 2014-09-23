@@ -1,0 +1,73 @@
+/* Styles for SAP */
+.title {font-size:20px;}
+
+/* Fixes scrollable glitch when scrolled down the page */
+html {overflow:visible;}
+
+/* Table */
+table {}
+table th, table td {font: 12px arial; text-align: left;}
+table th {background-color: #0F5672; color: #FFFFFF; font-weight: bold; padding: 5px 8px;}
+table td {background-color: #C2DEE3; padding: 3px 10px; }
+table tr.even td {background-color: #CEEDF2;}
+
+/* Proposal Editing Controls*/
+#edit_display {float:left; width:350px; min-height:600px; border: 1px solid black; margin-right:25px;}
+#sap_edit_controls, #default_edit_controls, #edit_buffer {display:none;}
+
+#branch_edit {border: 1px solid black; margin:5px; padding:5px; background-color:white;}
+#branch_edit button.delete_branch_btn {float: right;}
+#branch_edit button.edit_pkg_btn {float:right;}
+
+.leaf_edit {margin-top:5px;}
+.leaf_edit button {float:right;}
+.leaf_edit button.save_btn, .leaf_edit button.cancel_btn {display:none;}
+.leaf_edit button.edit_pkg_btn {float:left;}
+
+select.pkg_select {width:100%;}
+
+.leaf textarea.edit_text {width:100%; display:none;}
+
+/* Proposal */
+#proposal {float:left; width:550px;}
+
+#proposal .node {margin: 5px; padding: 5px; border: 1px solid black; background-color:white;}
+#proposal .branch.editing {border-color:green; background-color:lightgreen;}
+
+#proposal div.node div.package {font-size:10px; font-variant:small-caps;}
+#proposal div.node.leaf div.package {float:left;}
+#proposal div.node.leaf div.text {clear:both;}
+
+#proposal div.node.title div.text {font-size:18px; font-weight:bold;}
+
+/* Prospect */
+#prospect #prospect_parts {float:left; margin:10px 0px; overflow:hidden;}
+#prospect #prospect_parts label {width:55px; display:block; float:left; text-align:right; margin-right:5px;}
+
+#prospect #package_chooser {float:left; width:100px; margin:10px 5px; padding:0px 5px 5px; border: 1px solid #0F5672}
+#prospect #package_chooser label {margin-left:3px;}
+#prospect #package_chooser input {vertical-align:middle;}
+#prospect #package_chooser .service-title { display: block; }
+
+#prospect #prospect_buttons {clear:both;}
+
+#prospect #package_vars .edit_package {border:1px solid black; padding:5px; margin:0 0 5px; width:500px;}
+/*
+#prospect #package_vars label {display:block; float:left; width:95px; text-align:right; margin-right:5px;}
+#prospect #package_vars input {clear: both;}
+*/
+
+#preview {width:750px;}
+#preview .node {margin: 5px; padding: 5px; border: 1px solid black; background-color:white;}
+#preview div.node.title div.text {font-size:18px; font-weight:bold;}
+
+/* Package */
+#package .package {border: 1px solid #000; margin:5px; padding:10px;}
+#package .package .title {font-size:19px; text-decoration:underline;}
+#package .package_var {margin: 0 0 10px; border:1px solid #AAA; padding:5px; width:500px;}
+#package .package_var label.tlabel {display:block; float:left; width:90px; margin:0 5px; text-align:right;}
+#package .package_var label.clabel {margin:0 8px 0 3px;}
+#package .package_var_add {width:500px; padding:5px; border:1px solid #AAA;}
+#package .package_var_add .var_info {float:left;}
+#package .package_var_add label.tlabel {display:block; float:left; width:95px; text-align:right; margin-right:5px;}
+#package .package_var_add button.add_var_btn {float:right; margin:15px 0 0;}

@@ -1,0 +1,15 @@
+/*
+ * for many to one relationship, create cc_x_{thing} table
+ * for one to one relationship, add cc_id column to {$thing}
+ * should not have one to many relationship - create card in multiple places if needed
+ */
+
+/*
+ * todo: make sure everything that references a cc uses cc_x_{thing},
+ *  get rid of foreign_table and foreign_id in ccs
+ */
+
+/*
+ * todo: would be nice to have a base class for all pay_methods so
+ *  payments could simply record an id instead of id and pay_method
+ */

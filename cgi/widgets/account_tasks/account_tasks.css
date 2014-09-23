@@ -1,0 +1,202 @@
+/* task manager index */
+#tasks #new-layout {
+	margin: 10px 0;
+}
+#tasks table td {
+	padding: 5px;
+}
+
+/* tasks */
+#edit-layout-title-wrapper {
+	width: 400px;
+	display: none;
+}
+#edit-layout-title-wrapper textarea {
+	font-size: 24px;
+	padding: 5px 1px 2px 5px;
+	height: 25px;
+	line-height: 25px;
+}
+
+#layout-actions {
+	padding: 15px 0 0;
+}
+#layout-actions input {
+	border-radius: 3px;
+	-webkit-box-shadow: rgba(255, 255, 255, .6) 0px 0px 1px inset;
+	box-shadow: rgba(255, 255, 255, .6) 0px 0px 1px inset;
+	padding: 1px 10px 0px;
+	font-weight: bold;
+	cursor: pointer;
+	background: #0F7F95;
+	border: 1px solid #333;
+	color: white;
+	font-size: 14px;
+	height: 35px;
+	margin-right: 5px;
+}
+#layout-actions input:hover {
+	background: #559AA9;
+}
+
+.task-list {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 15px 0;
+}
+.task-list textarea {
+	line-height: 19px;
+	padding: 2px 1px 2px 4px;
+	height: 20px;
+	display: block;
+	font-size: 12px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	width: 100%; max-width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.task-list .section {
+	width: 600px;
+	margin-bottom: 20px;
+}
+.task-list .section .title {
+	position: relative;
+	border-radius: 3px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	background-color: #333;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px 0 5px 5px;
+	cursor: move;
+	font-family: Arial;
+}
+.task-list .section .title .delete-section {
+	display: block;
+	position: absolute;
+	right: 10px; top: 5px;
+	margin: 0;
+	background-color: #cd0a0a;
+	font-size: 9px;
+	padding: 0;
+	width: 40px; height: 20px;
+}
+.task-list .section .title .icons {
+	cursor: pointer;
+	margin-right: 10px;
+	float: left;
+}
+.task-list .section .title .text {
+	cursor: pointer;
+	display: inline-block;
+}
+.task-list .section .title .edit_title_wrapper {
+	display: none;
+	float: left;
+	width: 400px;
+}
+.task-list .section .count {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.task-list .section .item {
+	font-size: 12px;
+	background-color: #F3F3D1;
+	border-top: 1px solid white;
+	border-bottom: 1px solid #DBDBB0;
+	cursor: move;
+	padding: 5px 10px;
+}
+.task-list .section .item.add {
+	padding: 8px 10px;
+}
+.task-list .section .item:hover {
+	background-color: #F0F0C6;
+}
+.task-list .section .item.complete {
+	background-color: lightgreen;
+}
+
+.task-list .section .item .edit_task_wrapper {
+	padding: 0;
+	margin-right: 70px;
+	display: none;
+}
+.task-list .section .item .edit_task_wrapper .edit_input_note {
+	margin-top: 7px;
+	font-size: 10px;
+	height: 40px;
+}
+.task-list .section .item.add .edit_task_wrapper {
+	padding: 0;
+	margin-right: 70px;
+	display: block;
+}
+
+.task-list .section .item .checkbox {
+	float: left;
+	margin-right: 12px;
+	margin-top: 1px;
+}
+.task-list .section .item .display-text {
+	float: left;
+	width: 500px;
+}
+.task-list .section .item .text {
+	display: inline-block;
+}
+.task-list .section .item .note {
+	margin: 5px 0 3px 0;
+	font-size: 10px;
+	color: #555;
+}
+.task-list .section .item .actions {
+	float: right;
+	display: none;
+	padding-top: 3px;
+}
+.task-list .section .item .actions a {
+	text-indent: -9999px;
+	width: 11px; height: 11px;
+	display: block;
+	float: left;
+}
+.task-list .section .item .actions a.edit {
+	background: url(/img/ico-edit.png) no-repeat 0 0;
+	margin-right: 7px;
+}
+.task-list .section .item .actions a.delete {
+	background: url(/img/ico-close.png) no-repeat 0 0;
+}
+.task-list .section .item .actions a:hover {
+	background-position: right;
+}
+
+.task-list .section .item .save_task, .task-list .section .item .add_task, .task-list .section .delete-section {
+	border-radius: 3px;
+	-webkit-box-shadow: rgba(255, 255, 255, .5) 0px 0px 1px inset;
+	box-shadow: rgba(255, 255, 255, .5) 0px 0px 1px inset;
+	line-height: 15px;
+	padding: 1px 4px 0px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 6px;
+	margin-right: 9px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	zoom: 1;
+	background: #555;
+	border: 1px solid #333;
+	border-image: initial;
+	color: white;
+	font-size: 10px;
+	height: 23px;
+	width: 48px;
+	display: none;
+}
+.task-list .section .item .add_task {
+	display: block;
+	top: 4px;
+}

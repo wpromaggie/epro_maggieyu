@@ -1,0 +1,32 @@
+
+/* account reps */
+#account_reps #edit_rep_wrapper { margin-top:24px; }
+#account_reps #edit_rep_table { display:none; }
+
+/* queues */
+#queues .signup_spacer td { padding:5px 0; }
+
+/* ql/spend */
+
+#spend_headers_row th { font:12px arial; padding:1px 3px; }
+#spend_headers_row th.border_header { padding-left:12px; }
+#spend_headers_row th a { color:#0000ff; text-decoration:none; }
+#spend_headers_row th a:hover { color:#ff0000; text-decoration:underline; }
+#spend_tbody tr:hover { background-color:#ccffcc; }
+#spend_tbody td { font:11px arial; padding:1px 3px; }
+#spend_tbody td.col_highlight { background-color:#ffccff; }
+#spend_tbody td.sort_cell { background-color:#d7d7d7; }
+#spend_tbody td.multi_button { cursor:pointer; padding:1px 5px; }
+#spend_tbody td.multi_button:hover { background-color:#ffcccc; }
+#spend_tbody tr.multi_row_on { background-color:#ccccff; }
+#spend_tbody tr.cancelled { background-color:#ffdddd; }
+#spend_tbody tr.cancelled:hover { background-color:#ccffcc; }
+
+.detail_container { position:absolute; border:1px solid #000000; float:left; background:#ffffff; }
+.detail_head { position:relative; cursor:move; height:24px; width:100%; border-bottom:1px solid #000000; text-align:left; }
+.detail_head .detail_head_cl_name { padding-left:8px; font-weight:bold; }
+.detail_close { position:absolute; cursor:pointer; top:-3px; right:4px; font-size:14px courier; padding:2px; }
+.detail_content { position:relative; height:100%; width:100%; padding:16px 8px 8px 8px; }
+.detail_keywords_container { padding:4px 16px 8px 16px; }
+.detail_keywords_table td { font:10px georgia; padding:1px 2px; }
+.multi_bid_input { font:10px georgia; width:32px; height:12px; margin-right:8px; }

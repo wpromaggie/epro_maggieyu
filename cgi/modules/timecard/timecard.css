@@ -1,0 +1,23 @@
+
+/* Time Table */
+#timecard table { border-collapse:collapse; }
+#timecard td, #timecard th { padding: 2px 5px; }
+
+/* Who's here */
+#timecard .whos_here { margin-top:10px; }
+#timecard .whos_here .person { float:left; width:150px; }
+#timecard .whos_here .ontime { color:#009933; }
+#timecard .whos_here .kindaontime { color:#FF9933; }
+#timecard .whos_here .youarelateandyoushouldfeelbad { color:#FF0000; }
+
+/* Reports */
+#timecard #report .problem { color:red; }
+#timecard #report #user { display:none; }
+#timecard #report .breakdown_table { float:left; }
+#timecard #report .uheader { margin:32px 0 12px 0; color:#124a9a; font-size:50px; }
+
+/* calendar */
+#timecard #cal_table span { display:inline-block; width:100%; }
+#timecard #cal_table .Holiday { background-color:#c0ffc0; }
+#timecard #cal_table .Party { background-color:#ffc0c0; }
+#timecard #cal_table .Charity { background-color:#c0c0ff; }

@@ -1,0 +1,346 @@
+#sales { font-family: "lucida grande",tahoma,verdana,arial,sans-serif;}
+
+#sales fieldset { border: #b5b5b5 solid 1px; margin: 20px 40px; padding: 5px 10px;}
+#sales fieldset.half { width: 368px; float: left; margin: 0 0 0 40px;}
+#sales fieldset legend { color: #949494; font-size: 18px;}
+#sales fieldset .row { clear: both; display: block; height: 50px;}
+#sales fieldset .row div { float: left; margin-right: 15px;}
+#sales fieldset label { display: block; color: #666666; font-size: 14px; margin-bottom: 3px;}
+#sales fieldset span { color: #666666; font-size: 14px;}
+
+#sales #parent_client {
+    float: right;
+    margin: 0 40px 0 0;
+}
+
+#sales fieldset #web_deliver{
+    overflow: hidden;
+    height: auto;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+#sales fieldset #web_deliver p {
+    margin: 4px;
+}
+
+#sales fieldset #web_deliver div {
+    float: left;
+    width: 275px;
+    margin: 4px;
+}
+
+#sales input { padding: 2px 3px;}
+#sales input.error { border: red 1px solid;}
+#sales .inputCheckbox { margin: 0 5px;}
+
+#sales .date_range_picker td { padding:1px 2px; }
+#sales .date_range_picker input { padding:0; margin:0; }
+#sales .date_range_picker input[type="text"] { width:100px; }
+
+#sales .client_breakdown th { text-align:center; }
+
+#sales .date_range_picker tr { vertical-align:middle; }
+#sales .date_range_picker td { padding:1px 2px; }
+#sales .date_range_picker input { padding:0; margin:0; }
+#sales .date_range_picker input[type="text"] { width:100px; }
+
+
+/*
+ * rep breakdown
+ */
+
+#sales #rep_breakdown table.wpro_table { margin:0 0 20px 0; }
+#sales #rep_breakdown table.wpro_table th { text-align:center; }
+#sales #rep_breakdown a.pay_num_link.user_set { color:#ff0000; }
+#sales #rep_breakdown a.pay_comm_link { color:#000000; text-decoration:none; }
+#sales #rep_breakdown a.pay_comm_link:hover { color:#ff0000; }
+#sales #rep_breakdown a.pay_comm_link.user_set { color:#009900; }
+#sales #rep_breakdown .user_set { color:#009900; }
+
+#client_info .column { float: left; margin-right: 15px;}
+#client_info .block { width: 400px;}
+#client_info ul{ list-style: none;}
+
+#client_info table { border: 1px solid #CCCCCC; font-family: Arial, Helvetica, sans-serif; font-size: 13px; margin-top: 15px;  }
+#client_info table .title { border-bottom: 1px solid #EEEEEE; padding: 5px; font-weight: bold; }
+#client_info td.label { border-bottom: 1px solid #eeeeee; border-right: 1px solid #eeeeee; padding: 5px; padding-left: 25px; width: 40%;}
+#client_info td.data { border-bottom: 1px solid #eeeeee; padding: 5px; width: 60%;}
+
+#client_info #date { float: right;}
+
+#payment div { margin-bottom: 7px;}
+
+.prospects_list { width: 750px; float:left; }
+.prospects_list, .stats { margin-top: 10px; margin-right: 30px; margin-bottom: 20px;}
+.prospects_list td { padding: 3px 10px;}
+.prospects_list tr { background-color: #c2dee3; }
+.prospects_list tr.headers { background-color: #0F5672; color: #fff;}
+.prospects_list tr.even { background-color: #CEEDF2;}
+
+.stats td, .stats th { border: 1px #000 solid; padding: 3px 10px; text-align: left; text-transform: capitalize;}
+
+
+/* sap edit form */
+
+#proposal_form { color: #6A6A6A; }
+#proposal_form ul { list-style: none;}
+
+#proposal_form div.box { border: #838383 2px solid; margin: 20px 40px 40px 40px; padding: 20px; position: relative; color: #6a6a6a}
+#proposal_form .box h2 { color: #949494; font-size: 20px; padding: 0 35px; position: absolute; top: -14px; background-color: #FFFFFF; left: 265px;}
+#proposal_form .box h3 { color: #2b95d5; font-size: 18px; margin-bottom: 10px;}
+
+#proposal_form #info { font-size: 17px; color: #6a6a6a;}
+#proposal_form #info #wpro_info { float: left;}
+#proposal_form #info #client_info { float: right;}
+#proposal_form #info li { line-height: 1.4em;}
+#proposal_form #info span.label { width: 80px; display:inline-block;}
+
+#proposal_form #general_terms {font-size: 17px; color: #6a6a6a;}
+#proposal_form #general_terms #contact_info { float: left;}
+#proposal_form #general_terms #company_info { float: right;}
+#proposal_form #general_terms li { line-height: 1.4em;}
+#proposal_form #general_terms span.name { color:#000000;}
+#proposal_form #general_terms span.label { width: 110px; display:inline-block;}
+#proposal_form #general_terms #contact_info span.label { width: 80px;}
+
+#proposal_form #order_terms { }
+#proposal_form #order_terms h2 { padding: 0 83px;}
+#proposal_form #order_terms ul { list-style: none;}
+#proposal_form #order_terms li { float: left; width: 255px; }
+#proposal_form #order_terms li span { color:#000000;}
+
+#proposal_form #terms { border-top: #838383 2px solid; margin: 20px 40px 20px 40px; padding: 40px 0; position: relative;}
+#proposal_form #terms h2 { color: #949494; font-size: 20px; padding: 0 51px; position: absolute; top: -14px; background-color: #FFFFFF; left: 265px; }
+#proposal_form #terms h3 { color: #282828; font-weight: normal; margin-bottom: 10px;}
+#proposal_form #terms h4 { font-weight: normal;}
+
+#proposal_form p { margin-bottom: 10px;}
+
+#proposal_form ol { list-style-type:upper-alpha; list-style-position:inside;}
+#proposal_form ol li.terms_heading{ color: #2b95d5; font-weight: bold; margin: 15px 0; font-size: 18px;}
+
+#proposal_form ol ul { list-style-type:disc; list-style-position:outside;}
+#proposal_form ol ul li { margin-left: 20px; padding-left: 20px; padding-bottom: 10px;}
+#proposal_form ol ul#overview_list ul li { list-style-type:none; margin-left: 40px;}
+
+#proposal_form ul.dashes { list-style: none; margin-bottom: 15px;}
+#proposal_form ul.dashes li { padding-bottom: 0;}
+
+#proposal_form ol ol { list-style-type:decimal; list-style-position: outside;}
+#proposal_form ol ol li { margin-left: 20px; padding-left: 10px; padding-bottom: 10px;}
+
+#proposal_form #seo_package { width: 700px;}
+#proposal_form ul#seo_package_contents {}
+#proposal_form #seo_package ul#seo_package_contents li { float: left; width: 300px;}
+
+#proposal_form .monthly_breakdown { margin-bottom: 30px;}
+#proposal_form .month_details { width: 300px; float: left; margin: 20px 20px 0 20px; color: #0060e1;}
+/*#proposal_form .monthly_breakdown .month_details h4{
+    background: url(../images/month.jpg) no-repeat 0 0; width: 197px; height: 35px; color: #FFF; font-weight: normal;
+    padding: 6px 0 0 15px; font-family: Arial, Helvetica, sans-serif;
+}*/
+#proposal_form .monthly_breakdown .month_details h4{
+    color: #000; font-weight: normal;
+    
+}
+#proposal_form .month_details ul li { padding-bottom: 0;}
+
+#proposal_form #social_media_package { width: 800px; margin-bottom: 20px;}
+#proposal_form #social_media_package ul { margin: 10px 0 20px 20px;}
+#proposal_form #social_media_package ul li { float: left; width: 330px; padding-bottom: 0; }
+#proposal_form #social_media_package table { margin-top: 20px; border:#666666 1px solid; border-collapse:collapse; color: #282828;}
+
+
+#proposal_form table th { background-color: #c6e2e4; padding: 8px; font-weight: bold;}
+#proposal_form table td { background-color: #e1f6f8; border-bottom: 2px #888888 solid; padding: 8px;}
+#proposal_form table th.odd { background-color: #a6cacd; }
+#proposal_form table td.odd { background-color: #badee1;}
+#proposal_form table td span { width: 90px; display:inline-block;}
+
+#proposal_form #service_fees { }
+#proposal_form #service_fees h4 { font-weight: bold; color:#000000; font-size: 14px;}
+
+
+#proposal_form #order_details { width: 816px; margin: auto;}
+#proposal_form #order_details table { margin-top: 5px; border:#666666 1px solid; border-collapse:collapse; color: #000; text-align: center;}
+#proposal_form #order_details table caption { background-color:#282828; width: 100%; padding: 7px 0; color:#fff; text-align: center; font-size: 18px;}
+#proposal_form #order_details table th { text-align: center;}
+
+#proposal_form #agree { border-bottom: #b5b5b5 2px solid; border-top: #b5b5b5 2px solid; padding: 15px 0; margin: 25px 40px 10px 40px;}
+#proposal_form #agree p { line-height: 1.4em; margin-bottom: 20px; clear: right;}
+#proposal_form #agree .checkbox { float: left; margin-right: 10px;}
+#proposal_form #agree label {display: inline-block; color: #4face6; font-size: 16px; margin-right: 10px;}
+
+
+#proposal_form textarea.par { width: 500px; height: 200px;}
+
+#proposal_form textarea.list { width: 500px; height: 60px; }
+#proposal_form textarea.list_small { width: 250px; height: 60px;}
+#proposal_form textarea.list_big { width: 500px; height: 200px;}
+
+
+
+/* sap text area styles */
+
+#proposal_form input[type="button"], input[type="submit"] { margin: 10px 10px;}
+
+#proposal_form ul#edit_terms-deliverables-seo1_list li, ul#edit_terms-deliverables-seo2_list li { width: 300px; float: left;}
+
+#edit_terms-deliverables-smo1_text, #edit_terms-deliverables-smo2_text, #edit_terms-deliverables-smo3_text { clear: both; width: 800px;}
+
+
+#edit_sap ol { margin-left: 20px; margin-top: 20px;}
+#edit_sap ol li { margin: 20px 0 10px;}
+#edit_sap ul { list-style: none;}
+#edit_sap ul li { margin: 10px 0;}
+
+#edit_sap textarea.par { width: 500px; height: 150px;}
+
+#edit_sap .list li, #edit_sap .list_small li {float: left; margin: 10px; }
+
+#edit_sap .list textarea{ width: 350px; height: 100px;}
+#edit_sap .list_small textarea{ width: 200px; height: 75px; }
+#edit_sap .list_big textarea { width: 500px; height: 150px;}
+
+#proposal_form .edit_title { overflow: hidden; margin-bottom: 5px; }
+#proposal_form .edit_title h3 { float: left; }
+#proposal_form .edit_title input { margin: 0 0 0 7px; }
+
+
+/*
+ * tables
+ */
+table { margin: 15px 0;}
+table th, td { padding:5px 8px; font:12px arial; text-align: left; }
+thead th { font-weight:bold; text-decoration: underline; }
+tbody th { font-weight:bold;}
+table.clickable tbody tr:hover { background:#ccffcc; cursor: pointer; }
+
+
+tfoot th, tfoot td{ font-weight:bold; border-top: #000 solid 1px;}
+
+table tr.odd { background: #EFEFEF;}
+table.nohover tbody tr:hover { background: none; cursor:auto; }
+
+
+/* edit sap 2.0 */
+
+#edit_sap2 {
+    
+}
+
+#edit_sap2 .edit_block{
+    display:none;
+    overflow: hidden;
+    margin: 0 75px;
+}
+
+#edit_sap2 textarea {
+    width: 1000px; height: 100px;
+    padding: 4px; margin: 15px 0 10px;
+    border: 1px solid #838383;
+    color: #333; display: block;
+}
+
+#edit_sap2 textarea.list {
+    width: 300px; height: 100px;
+    padding: 4px; margin: 15px 10px 10px;
+    border: 1px solid #838383;
+    color: #333; display: inline-block;
+    float: left;
+}
+
+#edit_sap2 textarea.edited {
+    border: 1px solid #4d79a6;
+    background-color: #ddeeff;
+}
+
+#edit_sap2 .actions {
+    clear: left;
+    float: right;
+}
+
+#edit_sap2 .actions input {
+    margin: 0 5px;
+}
+
+/* leads */
+
+#leads #quick_upload #new_urls, #leads #past_uploads #urls { width:300px; height:400px; }
+#leads #quick_upload #name { width:300px; padding:0; }
+
+
+/* sbs contacts */
+#sbs-view-contact{
+	padding: 25px;
+}
+
+#sbs-view-contact .editable{
+	background-color: #d8eced;
+	border: 1px solid #849a9b;
+	padding: 10px;
+	float: left; width: 300px;
+	margin-right: 25px;
+}
+
+#sbs-view-contact .editable div {
+	padding: 7px 0;
+}
+
+#sbs-view-contact .editable div label {
+	width: 90px; text-align: right;
+	display: inline-block;
+}
+
+#sbs-view-contact #package-info { 
+	float: left; 
+	margin: 20px 20px 20px 0;
+}
+#sbs-view-contact #package-info .package {
+	float:left;
+	margin-right: 15px;
+}
+#sbs-view-contact #package-info h3 {
+	margin-bottom: 10px;
+}
+#sbs-view-contact #package-info h4 {
+	margin: 10px 0 5px;
+}
+#sbs-view-contact #package-info select {
+	margin-bottom: 10px;
+}
+#sbs-view-contact #package-info label {
+	font-size: 11px;
+	width: 75px;
+	margin-right: 7px;
+	text-align: right;
+	display: inline-block;
+	vertical-align: top;
+}
+#sbs-view-contact #package-info input, #sbs-view-contact #package-info textarea  {
+	margin-bottom: 8px;
+}
+#sbs-view-contact #package-info textarea {
+	width: 300px;
+	height: 100px;
+	padding: 2px 4px;
+}
+
+#sbs-view-contact #stats {
+	float: left;
+}
+
+/* set commissisons */
+
+#set_commissions table tr { vertical-align:middle; }
+#set_commissions table td:first-child { text-align:right; }
+#set_commissions table input.com_input { width:48px; }
+
+/* manage leads */
+#upload_table tr { vertical-align:middle; }
+#upload_table td { padding:1px; }
+/*
+#upload_table label { font-weight:bold; font-size:16px; }
+*/
+

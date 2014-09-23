@@ -1,0 +1,70 @@
+
+#data_crumbs_table { margin:12px 0; }
+#data_crumbs td { padding:0px 4px; font-family:courier; }
+#data_crumbs .crumb_label { font-weight:bold; }
+
+.data_totals { background-color:#ffffd1; }
+.data_totals td { font-weight:bold; }
+
+#data_col_headers { background-color:#c0c0c0; }
+#data_body td, .data_totals td { padding:2px 3px; font:12px arial; }
+
+#data_col_headers td { padding:2px 3px; text-align:center; cursor:pointer; font-size:14px; }
+#data_col_headers td.active { font-weight:bold; }
+#data_col_headers td:hover { color:#ff0000; text-decoration:underline; }
+
+#data_body .row0 { background-color:#ffffff; }
+#data_body .row1 { background-color:#efefef; }
+#data_body .row0:hover, #data_body .row1:hover, .data_totals:hover { background-color:#d1d1ff; }
+
+#data_body .sort_cell { background-color:#ffdddd; }
+
+#data_none td { text-align:center; font-weight:bold; font-size:150%; }
+
+#change_container { display:none; }
+#change_status_cell label { padding-left:8px; margin-right:6px; }
+#change_status_cell img { cursor:pointer; margin-right:3px; }
+
+.change_button_row { display:none; }
+.change_button_row .change_button { font-weight:bold; }
+
+.bid_change_input { width:32px; }
+.bid_change_help { font-family:arial; font-size:10px; white-space:nowrap; }
+.data_bid_input { width:32px;border:1px solid #000000;font-family:arial;font-size:10px; }
+
+.input_container { padding:16px; border:1px solid #a5a5a5; }
+.input_container legend { padding:0 8px; font-weight:bold; font-style:italic; color:#474747; }
+
+#filter_show { padding:3px 0; }
+#filter_show_show { font-size:14px; padding:0 8px 0 4px; }
+#filter_show_text { font:12px arial; padding:0 12px 0 4px; cursor:pointer; }
+
+#date_filter_cell { padding:22px 0 0 17px; }
+#date_filter_div { height:50px; width:16px; }
+
+.date_label { text-align:right; font-size:11px; padding-right:4px; }
+.date_textfield { width:100px; }
+
+.new_status { cursor:pointer; }
+
+#updates_manager_tbody tr { vertical-align:top; }
+.update_manager_status_cell { max-width:250px; }
+
+#clear_filter { margin-left:3px; }
+
+#w_filter_results_overview { margin:12px; background-color:#dfffdf; }
+#w_filter_results_overview .filter_overview_row { vertical-align:bottom; }
+#w_filter_results_overview .filter_overview_col, #w_filter_results_overview .filter_overview_val { font-weight:bold; font-size:125%; }
+#w_filter_results_overview .filter_overview_and { font-style:italic; }
+
+/* exclude campaigns */
+#div_exclude_campaigns, #div_a_exclude_campaigns { margin:8px 0; }
+
+#div_filter_options { margin:2px 0 8px 4px; }
+#div_filter_options #div_search_or_content { float:left; margin-right:24px; }
+#div_filter_options #div_ag_or_kw { float:left; }
+
+#data_table .cache_text { cursor:pointer; color:#0000ff; }
+
+#w_filter_history, #w_filter_new { display:none; }
+#filter_top_spacer { margin:6px; }

@@ -1,0 +1,20 @@
+
+/* client list */
+#filter { height:20px; margin:16px 0; }
+#filter > div { margin-right:16px; float:left; }
+
+#ppc_data_pull { position:absolute; right:40px; top:40px; }
+#ppc_data_pull td.status.complete { color:#009900; }
+
+/* add client */
+#add_client #search_table { margin:12px; }
+#add_client #search_table td { padding:2px 4px; }
+
+#search_results_table tbody tr.odd { background-color:#e0e0e0; }
+#search_results_table tbody tr:hover { background-color:#e0ffe0; }
+#search_results_table td { font:12px arial; padding:2px 4px; }
+
+/* download client list */
+#download_client_list tbody td { padding:2px 3px; }
+#download_client_list tbody td:first-child { padding-right:16px; font-weight:bold; text-align:right; }
+#dates_note { margin:16px 0 8px 0; font-size:80%; }

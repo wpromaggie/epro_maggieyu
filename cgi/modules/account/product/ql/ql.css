@@ -1,0 +1,166 @@
+
+/* url */
+
+#url #page_menu { margin-bottom: 2px; }
+
+/* url/dashboard */
+
+#url #new_note { width:256px; height:128px; }
+#url #is_trial_tbody tr:first-child td, #url #op_tbody tr:first-child td { padding-top:24px; }
+#url #trial_tbody { display:none; }
+
+/* url/markets */
+
+#markets input[type=submit] { padding:0; font:10px georgia; }
+
+#markets .w_data_source { float:left; padding:8px 24px; }
+#markets .w_data_source.selected { border:1px solid #000000; background-color:#efefef; }
+#markets .w_data_source .header { margin-bottom:6px; }
+#markets .w_data_source .header span { margin-right:8px; }
+#markets .w_data_source .header a { font-size:12px; }
+#markets .w_data_source .header span.text a { font-size:18px; font-weight:bold; margin-right:12px; color:#000000; text-decoration:none; }
+#markets .w_data_source .header span.text a:hover { color:#707070; text-decoration:underline; }
+
+#markets #w_ad_group_list .ag_links a.selected { background: #e0e0e0; border: 1px solid #000000; color: #009900; padding:4px; }
+
+#markets fieldset.section { float:left; border:0; border-top:4px solid #ff0000; padding:12px 32px 32px 16px; min-width:700px; }
+#markets fieldset.section legend { padding:0 10px; font:24px times; font-style:italic; font-weight:bold; color:#000000; }
+#markets fieldset.section .container { padding:8px; }
+#markets fieldset.section .container .header { margin-bottom:6px; }
+#markets fieldset.section .container .header span { margin-right:8px; }
+#markets fieldset.section .container .header a { font-size:12px; }
+#markets fieldset.section .container .header span.text { font-size:18px; font-weight:bold; margin-right:12px; }
+
+#markets fieldset.w_ag { margin-right:16px; }
+#markets fieldset.w_ag legend { font-size:32px; }
+
+#markets #w_update_dropdowns { float:left; }
+#markets #w_update_details { float:left; }
+#markets #w_update_details { border:2px solid #000000; background-color:#e0e0e0; padding:8px; display:none; }
+#markets #w_update_details table td:first-child { font-weight:bold; }
+#markets #w_update_details table { margin:8px 0; }
+#markets #w_update_details .copy_button.highlighted { background-color:#a0ffa0; }
+
+#markets .ag_spacer { margin:4px auto; width:400px; border-bottom:2px dashed #a0a0a0; }
+
+#markets .ad_table input.title { width:200px; }
+#markets .ad_table input.desc { width:400px; }
+#markets .ad_table input.url { width:400px; }
+
+#markets #ads_fieldset .w_submit_changes input[type="submit"] { font:14px georgia; margin-left:8px; }
+#markets .w_submit_changes { padding:8px 0 32px 16px; }
+
+#markets .keyword_table input.keyword { width:300px; }
+#markets .keyword_table input.bid { width:32px; }
+#markets .keyword_preview_changes { display:none; border:1px solid #000000; background:#e0e0e0; padding:16px; }
+#markets .keyword_preview_changes .list { float:left; margin-right:12px; }
+#markets .keyword_preview_changes .list ul { list-style:none; }
+#markets .keyword_preview_changes .buttons { width:100px; margin:12px auto; }
+textarea.multi_line_copy { width:400px; height:400px; }
+
+/* url/su */
+
+#su input[type="text"] { width:300px; }
+
+/* url/op */
+#op #textarea_ml { width:250px; height:150px; }
+#op .analysis_after { width:1000px; }
+
+/* url/spend */
+#ql #spend #w_url_spend { position:relative; }
+#ql #spend .w_date_range { margin-bottom:24px; }
+#ql #spend #w_ags { float:left; }
+#ql #spend .ag_bid { width:40px; }
+#ql #spend #w_metrics { position:relative; float:left; }
+#ql #spend #w_metrics th { padding:1px 3px; }
+#ql #spend .w_market { font:12px arial; float:left; margin-right:32px; }
+#ql #spend .w_submit { margin:12px 36px; }
+#ql #spend .w_keywords th { padding:1px 3px; }
+#ql #spend .bid_input { font:10px georgia; width:32px; height:12px; text-align:right; }
+#ql #spend .detail_submit { font:10px georgia; }
+#ql #spend .detail_bid_below_min { background:#e0e0e0; }
+#ql #spend .kw_bid_default { color:#ff7700; }
+
+#ql #spend .detail_updates_msg { width:160px; min-height:100px; margin:20px auto; padding:8px; display:none; font:12px arial; }
+#ql #spend .detail_updates_msg_loading { border:2px solid #000000;  background:#e0e0e0; }
+#ql #spend .detail_updates_msg_error   { border:2px solid #000000; background:#ff6f6f; }
+#ql #spend .detail_updates_msg_success { font-weight:bold; border:2px solid #000000; background:#6fff6f; }
+#ql #spend .detail_updates_msg_loading img { margin:40px auto; float:none; }
+
+
+/* search */
+
+#search .condition { float:left; padding:8px 32px 16px 16px; margin:20px; border:3px dotted #a0a0a0; min-width:200px; }
+#search .condition legend { padding:0 12px; font-weight:bold; font-style:italic; font-size:120%; }
+
+#search .condition .close { position:absolute; top:-14px; right:18px; cursor:pointer; padding:0 4px; }
+#search .condition .close:hover { background:#e0e0e0; }
+#search .condition .toggle_wrapper { margin-top:4px; }
+
+#search .condition .cboxes_wrapper { margin:2px 0 8px 0; }
+#search .condition .cboxes_wrapper .cboxes_table { margin:0 8px; cursor:pointer; }
+#search .condition .cboxes_wrapper .cboxes_table tr:hover { background-color:#e0ffe0; }
+#search .condition .cboxes_wrapper .cboxes_table thead tr { vertical-align:bottom; }
+#search .condition .cboxes_wrapper .cboxes_table thead td { padding:6px; }
+#search .condition .cboxes_wrapper .cboxes_table tbody td { padding:3px; text-align:center; }
+
+#search .condition .q_wrapper label, #search .q_wrapper input { font:20px helvetica; }
+#search .condition .q_wrapper input[type="text"] { width:300px; }
+#search .condition .q_wrapper input[type="submit"] { padding:2px 8px; }
+
+#search #cnt_meta_date_filter { margin:16px 0; }
+
+#search #results #no_results { margin:18px; font-size:18px; color:#e00000; }
+
+/* multi bid stuff */
+
+#multi_table input.multi_multi_bid_input { font:10px georgia; width:32px; height:12px; margin-right:2px; }
+
+#multi_thead th.kw_ave_bid_th { font-weight:bold; padding-right:20px; }
+#multi_thead div.spacer { margin:1px 20px 1px 6px; height:1px; background-color:#b2b2b2; }
+
+#multi_tbody td.kw_ave_bid_td { padding-right:20px; }
+#multi_tbody span.amount_preview { font:10px georgia; }
+
+#multi_tfoot input { font:10px georgia; }
+
+
+/* new orders*/
+#nos_table th, #nos_table td { padding:1px 3px; font:12px arial; }
+#nos_thead th { font-weight:bold; }
+#nos_tbody tr:hover { background:#ccffcc; }
+
+.nos_data_set_ag_loc select { font:10px georgia; }
+.nos_data_set_ag_loc p { margin-bottom:4px; }
+
+table#order_meta { padding:8px 0 16px 0; }
+table#order_meta td { padding-right:12px; }
+table#order_meta thead td { font-weight:bold; padding-right:12px; }
+
+table#order_info tr { vertical-align:top; }
+div.market_header_div { padding:4px;border-bottom:1px dashed #000000 }
+div.market_header_div img { float:left;padding-top:2px; }
+div.market_header_div span { font:bold 14px georgia;float:left;padding-left:4px; }
+
+div.ad_preview { border:1px solid #b4d0dc; padding:4px 8px; text-align:left; width:260px; }
+div.ad_preview div.ad_preview_title { color:#0000ff; font-size:130%; text-decoration:underline; }
+div.ad_preview div.ad_preview_desc_1, div.ad_preview div.ad_preview_desc_2 { }
+div.ad_preview div.ad_preview_url { color:#00ff00; }
+
+/* ccs */
+#ccs h2 { margin:20px 0 8px 0; }
+.cc_table_wrapper input[type="submit"] { padding:0; font-size:12px; }
+
+/* general */
+table.form_table td { padding:8px 6px; vertical-align:bottom; }
+table.form_table tr td:first-child { text-align:right; }
+table.form_table input[type="text"] { width:200px; }
+table.form_table select { width:204px; }
+
+table.big { margin:12px 4px; }
+table.big td { font:18px courier; }
+table.big tr td:first-child { font-weight:bold; }
+
+
+/* accounting */
+#accounting .payments_wrapper { margin:16px; }

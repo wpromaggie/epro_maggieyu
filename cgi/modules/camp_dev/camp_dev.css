@@ -1,0 +1,23 @@
+
+.group { padding:8px 0 24px 8px; border:0; border-top:2px solid #ffa032; }
+.group legend { padding:0 8px; font-style:italic; font-size:16px; color:#427ae1; }
+
+.serious_button { font-weight:bold; font-size:14px; padding:4px 8px; }
+
+.list { width:200px;height:350px; float:left; padding:2px 2px 2px 15px; margin:2px 12px 12px 2px; border:1px solid #a0a0a0;}
+.list_off { background-color:#ffffff; }
+.list_on  { background-color:#efefef; }
+.list_textarea { width:180px; height:210px; overflow:auto; }
+
+.kw_list { width:300px; height:500px; }
+
+#generated_count_cell, #master_count_cell { font:10px courier; }
+
+#keyword_progress_table { margin:8px 0 0 20px; }
+.progress_cell, .progress_cell_on { width:10px; height:10px; border:1px solid #000000; }
+.progress_cell_on { background-color:#000000; }
+.progress_spacer { width:5px; height:10px; }
+
+#mod_broad_options { display:none; margin-left:12px; }
+#mod_broad_lists { margin-left:12px; }
+#mod_broad_lists label.disabled { color:#a0a0a0; }

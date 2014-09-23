@@ -1,0 +1,22 @@
+
+#info table td { padding:2px 4px; }
+
+/* swapp */
+#swapp .network_options div.w_network { float:left; border:2px solid #ffffff; }
+#swapp .network_options div.w_network img { height:50px; margin:0 6px; cursor:pointer; }
+#swapp .network_options div.w_network img.on { opacity:1; }
+#swapp .network_options div.w_network img.off { opacity:.2; }
+#swapp img.network_small { height:24px; }
+#swapp img.network_tiny { height:12px; }
+
+/* swapp/auth */
+#swapp .instructions li { margin-left:45px; }
+
+/* swapp/post */
+#swapp #post .message { width:350px; height:100px; }
+#swapp #post .wide { width:350px; }
+#swapp #post #description { width:350px; height:80px;}
+#swapp #post #when_dt { margin-left:24px; }
+#swapp #post tbody#post_table > tr > td { padding-bottom:16px; }
+#swapp #post tbody#post_table > tr > td:first-child { font-weight:bold; vertical-align:middle; }
+#swapp #post .twitter_msg_len_note { font-size:10px; display:none; }

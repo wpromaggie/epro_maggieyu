@@ -1,0 +1,116 @@
+
+* { padding:0; margin:0; position:relative; }
+td { padding:1px 3px; }
+
+img { border:0; }
+body { background:#f3f3f3; }
+
+a       { color:#0000ff; text-decoration:underline; }
+a.on    { color:#009900; text-decoration:underline; }
+a:hover { color:#ff0000; text-decoration:none;      }
+
+a.ajax       { color:#ff8000; text-decoration:underline; }
+a.ajax:hover { color:#000000; text-decoration:none; }
+
+a.ninja       { color:#000000; text-decoration:none; }
+a.ninja:hover { color:#ff0000; text-decoration:underline; }
+
+
+.chars_left { font-size:80%; }
+
+h1, h2, h3 { margin-bottom: 8px; }
+
+label { cursor:pointer; }
+
+tr { vertical-align:top; }
+
+ul { list-style: none; padding: 0 0 0 20px;}
+
+span.on { background-color: #aaffaa; }
+
+fieldset { float:left; padding:8px 32px 16px 8px; border:1px solid #000000; min-width:200px; }
+fieldset legend { padding:0 6px; font-weight:bold; font-style:italic; font-size:14px; }
+
+#container { background:#f3f3f3; }
+#page_head { border:1px solid #96bbb4; border-top:0; margin:0 auto; width:70%; }
+#page_body { position:relative; padding: 1em; border:1px solid #dadada; background-color:#ffffff; padding-bottom:64px; height:100%; margin:0 auto; width:95%; }
+#page_foot { background:#f3f3f3; float:right; font-size:80%; color:#c1c1c1; margin:0 auto; width:95%; }
+#spacer { background:#f3f3f3; height:12px; }
+
+.corner_tl { position:absolute; left: -1px; top:   -1px; }
+.corner_tr { position:absolute; right:-1px; top:   -1px; }
+.corner_br { position:absolute; right:-1px; bottom:-1px; }
+.corner_bl { position:absolute; left: -1px; bottom:-1px; }
+
+.error_msg { color:#ff0000; }
+.success_msg { color:#009900; font-weight:bold; }
+.alert_msg { background-color:#ffff00; }
+.msg { position:relative; float:left; padding:4px 24px 4px 12px; margin:2px; border:1px solid #000000; }
+.msg .msg_close { position:absolute; top:-4px; right:4px; cursor:pointer; }
+
+.small_button { font:10px georgia; }
+
+#page_menu a { margin:0 6px; }
+
+#header_1, #header_2, #header_3 { padding-left: 12px; }
+
+#header_1 { height:36px; padding-top:16px; background:#0f5672; }
+#header_2 { height:32px; padding-top:12px; color:#78b8c2; background:url(../img/header_2.jpg) repeat-x; }
+#header_3 { min-height:28px; padding-top:12px; color:#0f7f95; background:#ceedf2; }
+
+#header_1 #h1_links a       { color:#559aa9; background:#0f5672; font-weight:bold; text-decoration:none; margin-left:24px; }
+#header_1 #h1_links a:hover { color:#ffffff; background:#7abac4; text-decoration:underline; }
+
+#header_1 #e2_logo a { margin-left:4px; text-decoration:none; }
+#header_1 #e2_logo a:hover { text-decoration:none; }
+
+#header_2 a       { color:#78b8c2; text-decoration:none;      font-weight:bold; }
+#header_2 a:hover { color:#000000; text-decoration:underline; }
+
+#header_3 a       { color:#0f7f95; text-decoration:none;      }
+#header_3 a:hover { color:#000000; text-decoration:underline; }
+
+#dbg_stop_div { position:fixed; top:12px; right:12px; padding:32px; border:1px solid #000000; background:#ffffff; }
+
+#client_input { width:250px; }
+
+#login_div  { color:#559aa9; position:absolute; right:24px; top:15px; }
+#login_user { width:128px; font-size:10px; }
+#login_pass { width:64px; font-size:10px; }
+
+#page_menu { margin-bottom:6px; }
+#page_menu a.on { color:#009900; }
+
+.filter_col { float:left; margin:1px 3px; }
+.filter_cmp { float:left; margin:1px 3px; }
+.filter_val { float:left; margin:1px 3px; }
+.filter_links { font-size:12px; float:left; margin:2px 0 0 8px; }
+.filter_links a { color:#000000; }
+.filter_links a:hover { color:#ff0000; }
+
+.time_picker { position:absolute; display:none; border:1px solid #000000; padding:4px; background:#ffffff; z-index:8; }
+.time_picker .time_table table { padding:8px; }
+.time_picker .time_table td.meridian { vertical-align:middle; }
+.time_picker .time_table td.time_td { text-align:center; padding:3px 6px; width:12px; font-weight:bold; border:1px solid #ffffff; cursor:pointer; }
+.time_picker .time_table td.time_td.on { border:1px solid #000000; }
+.time_picker .time_table td.time_td:hover { background:#e0e0e0; color:#0000ff; }
+
+.date_picker { position:absolute; display:none; border:1px solid #000000; padding:4px; background:#ffffff; z-index:8; }
+.date_picker > table td { white-space:nowrap; }
+.date_picker .date_picker_select select { margin-bottom:8px; }
+.date_picker .month { font:18px arial; font-weight:bold; }
+.date_picker .month_change { cursor:pointer; }
+.date_picker .month_change:hover { background:#e0e0e0; }
+.date_picker .w_ranges { padding-top:16px; }
+.date_picker .w_ranges .group { margin:8px 4px; }
+.date_picker .w_ranges .group a { text-decoration:none; color:#000000; }
+.date_picker .w_ranges .group a.selected { text-decoration:underline; color:#7f7f7f; }
+.date_picker .w_ranges .group a:hover { text-decoration:underline; color:#7f7f7f; }
+.date_picker .date_table { margin:8px; border-collapse:collapse; }
+.date_picker .date_table .days_of_week th { color:#a0a0a0; font:16px arial; font-weight:bold; }
+.date_picker .date_table .days td.day { padding:6px; font:14px arial; font-weight:bold; cursor:pointer; border:1px solid #ffffff; text-align:center; }
+.date_picker .date_table .days td.day.today { color:#00bb00; }
+.date_picker .date_table .days td.day.on { border:1px solid #000000; }
+.date_picker .date_table .days td.day:hover { background:#e0e0e0; }
+
+.defined_display { color:#a0a0a0; font-size:11px; }

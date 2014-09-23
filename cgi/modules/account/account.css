@@ -1,0 +1,16 @@
+
+/* billing */
+#account #billing fieldset { float:left; padding:8px 16px 16px 16px; margin:20px 40px; border:0; border-top:3px solid #ff0000; min-width:200px; }
+#account #billing fieldset.first { margin-left:0; }
+#account #billing fieldset legend { padding:0 12px; font-weight:bold; font-style:italic; font-size:140%; }
+
+#account #billing #billing_history .notes { cursor:default; }
+#account #billing #billing_history .edit_row { background-color:#a0ffa0; }
+
+#account #billing #payment_form .w_radio_inner { margin-bottom:4px; }
+#account #billing #payment_form #total_row td { font:18px courier; font-weight:bold; }
+#account #billing #payment_form .pay_method_details { display:none; }
+#account #billing #payment_form #add_payment_part_row_button { margin:12px 0; }
+#account #billing #payment_form .pp_row .amount { width:64px; }
+#account #billing #payment_form #edit_note { font-size:11px; max-width:250px; margin:0 0 8px 12px; }
+#account #billing #payment_form #edit_cancel_button { display:none; }

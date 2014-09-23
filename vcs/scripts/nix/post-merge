@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd cli
+php hook_runner.php post-merge

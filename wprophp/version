@@ -1,0 +1,14 @@
+1.0.4 2008February05
+	- Added some test cases to test.php
+
+1.0.3 2008February04
+	- Converted to house style
+
+1.0.2 2007September12
+	- Added WPRO_MAGIC magic definer
+
+1.0.1 2007September10
+	- First revision; updated and expanded object model
+
+1.0.0 2007August27
+	- First release

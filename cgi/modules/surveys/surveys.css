@@ -1,0 +1,160 @@
+#survey table th {
+	text-align: left;
+}
+#survey table th, #survey table td {
+	padding: 5px;
+}
+
+/* common classes */
+#survey .hidden { 
+	display: none;
+}
+
+#add_layout_form {
+	margin-top: 15px;
+}
+#add_layout_form label {
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+	margin-bottom: 7px;
+	padding-right: 10px;
+}
+#add_layout_form input.submit{
+	margin-left: 213px;
+}
+
+#surveys #clients #add .input-field {
+	margin: 10px 0;
+}
+#surveys #clients table#client-surveys tbody {
+	font-size: 12px;
+}
+#surveys #clients table#client-surveys tbody tr:nth-child(odd) {
+	background: #ddd;
+}
+#surveys #clients table#client-surveys td, #surveys #clients table#client-surveys th {
+	padding: 8px 5px;
+}
+
+#surveys #client-settings div {
+	margin-bottom: 5px;
+}
+
+#surveys #view {
+	margin: 0 25px;
+}
+#surveys #view .cat {
+	border-bottom: solid 1px #ddd;
+	margin-bottom: 15px;
+}
+#surveys #view h4 {
+	margin: 10px 0;
+}
+#surveys #view h4 {
+	text-decoration: underline;
+	margin-bottom: 5px;
+}
+#surveys #view p {
+	margin: 0 0 10px 7px;
+	line-height: 1.5em;
+}
+
+#surveys #view .file {
+	display: block;
+	margin-bottom: 15px;
+}
+
+#survey_layouts {
+	margin: 15px 0 0 0;
+}
+#survey_layouts th {
+	text-align: left;
+}
+#survey_layouts th, #survey_layouts td {
+	padding: 3px 7px;
+}
+
+#edit_survey {
+	width: 950px;
+	border: 1px solid #ddd;
+	margin: 15px auto 0 auto;
+}
+
+#save_cancel { position: fixed; left: 0; bottom: 50%; padding: 20px; background-color: lightgreen; border: 2px solid black; z-index: 10; }
+#save_cancel.alert { background-color: red; }
+
+#edit_survey #survey_title {
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+#edit_survey #survey_title_edit {
+	display: none;
+}
+
+
+/* Cat Styles */
+#edit_survey .cat {
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	cursor: pointer;
+}
+#edit_survey .cat.editing {
+	border-color:green; 
+	background-color:lightgreen;
+}
+#edit_survey .edit_cat_name, 
+#edit_survey .cat_name_edit_btns .cancel_cat_name_btn, 
+#edit_survey .cat_name_edit_btns .save_cat_name_btn {
+	display: none;
+}
+
+#edit_survey .cat_move_btns {
+	position: absolute; top: 20px; right: 20px;
+}
+#edit_survey #add_cat {
+	margin: 0 0 20px 20px;
+}
+
+/* Q Styles */
+#edit_survey .q {
+	margin: 10px; padding: 10px;
+	border: 1px solid #ddd;
+	background: #fff;
+	overflow: hidden;
+}
+#edit_survey .editing .q {
+	border-color: #000;
+}
+#edit_survey .editing .q:hover {
+	border-width: 2px;
+	padding: 9px;
+}
+
+#edit_survey .q .q_edit_type{
+	display: none;
+	padding-top: 5px;
+}
+#edit_survey .q .q_edit {
+	overflow: hidden;
+}
+#edit_survey .q .q_edit_actions{
+	float: right;
+}
+
+#edit_survey .q .edit_text {
+	display: none;
+	width: 100%;
+}
+
+
+#edit_display {
+	position: absolute; top: 0; left: 0;
+	width: 140px; border: 1px solid #000;
+	padding: 5px;
+}
+
+#edit_buffer {
+	display: none;
+}

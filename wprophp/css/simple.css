@@ -1,0 +1,164 @@
+body
+{
+	background: #666666;
+	font: 80% Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+h1, h2, h3, h4, h5, h6
+{
+	font: 125% "Trebuchet MS", sans-serif;
+	font-weight: bold;
+	margin: 0;
+}
+a:link
+{
+	color: #339;
+}
+a:visited
+{
+	color: #006B6B
+}
+a:hover,
+a:active,
+a:focus
+{
+	color: #F93;
+}
+
+div#container
+{
+	background: #999999;
+	margin: 1em auto;
+	width: 95%;
+	padding: 1em 1em 0em;
+	text-align: left;
+}
+
+div#nav
+{
+	float: left;
+	font-size: x-small;
+	width: 20%;
+}
+div#nav ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+div#nav ul li
+{
+	padding: 0;
+}
+div#nav ul li a
+{
+	background: #333333;
+	border: 1px solid #434343;
+	color: #CCCCCC;
+	display: block;
+	height: expression('1em');
+	padding: 0.5em 0.5em 0.5em 24px;
+	text-decoration: none;
+}
+div#nav ul li a:active,
+div#nav ul li a:focus,
+div#nav ul li a:hover
+{
+	background: #aaaaaa;
+	border: 1px solid #222222;
+	color: #222222;
+}
+div#nav ul li a.active,
+div#nav ul li a.active:hover
+{
+	background: #aaaaaa;
+	border: 1px solid #222222;
+	color: #222222;
+	font-weight: bold;
+}
+div#nav p
+{
+	color: #222222;
+	margin: 1em;
+	padding: 0;
+}
+
+div#content
+{
+	background: #999999;
+	color: #222222;
+	float: left;
+	margin: 0;
+	padding: 0em 0em 1em 1em;
+	width: 70%;
+}
+div#content h2
+{
+	background: #F93;
+	padding: 0.25em 1.25em;
+}
+div#content h3,
+div#content h4,
+div#content h5,
+div#content h6
+{
+	padding: 0.25em 1.25em;
+}
+div#content p
+{
+	font-size: 85%;
+	line-height: 150%;
+	margin: 1em 0;
+	padding: 0 2em;
+	text-align: justify;
+}
+div#content ul
+{
+	margin: 1em;
+	padding: 0 2em;
+}
+div#content li
+{
+	font-size: 85%;
+	line-height: auto;
+	margin: 0.5em 0;
+}
+div#content form
+{
+	font-size: 75%;
+	line-height: 125%;
+	margin: 1em 0;
+	padding: 0 2em;	
+}
+
+div$#content table
+{
+	font-size: 70%;
+	line-height: 125%;
+	margin: 1em 0;
+	padding: 0 2em;
+}
+
+.clearer
+{
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+div#footer
+{
+	position: 
+	background: #777777;
+	width: 100%;
+}
+div#footer p
+{
+	color: #222222;
+	font-size: x-small;
+	margin: 0;
+	padding: 1em;
+	text-align: center;
+}

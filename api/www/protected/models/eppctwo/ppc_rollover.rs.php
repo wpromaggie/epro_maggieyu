@@ -1,0 +1,27 @@
+<?php
+
+class mod_eppctwo_ppc_rollover extends rs_object
+{
+	public static $db, $cols, $primary_key, $indexes;
+
+	public static function set_table_definition()
+	{
+		self::$db = 'eppctwo';
+		self::$primary_key = array('id');
+		self::$indexes = array(
+			array('account_id')
+		);
+		self::$cols = self::init_cols(
+			new rs_col('id'            ,'int'   ,null,null  ,rs::NOT_NULL | rs::UNSIGNED | rs::AUTO_INCREMENT | rs::READ_ONLY),
+			new rs_col('account_id'    ,'char'  ,16  ,''    ,rs::NOT_NULL | rs::READ_ONLY),
+			new rs_col('user_id'       ,'int'   ,null,0     ,rs::NOT_NULL | rs::UNSIGNED | rs::READ_ONLY),
+			new rs_col('d'             ,'date'  ,null,rs::DD,rs::NOT_NULL),
+			new rs_col('budget'        ,'double',null,0     ,rs::NOT_NULL),
+			new rs_col('carryover'     ,'double',null,0     ,rs::NOT_NULL),
+			new rs_col('adjustment'    ,'double',null,0     ,rs::NOT_NULL),
+			new rs_col('next_bill_date','date'  ,null,rs::DD,rs::NOT_NULL)
+		);
+	}
+}
+
+?>

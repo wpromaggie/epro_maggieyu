@@ -1,0 +1,26 @@
+/* 
+    Document   : workboard
+    Created on : Oct 20, 2009, 10:42:39 AM
+    Author     : Matthew
+    Description:
+        Style up the workboard page with some spiffy tasks! wee!
+*/
+
+DIV.task {
+    display: block;
+	border: solid black;
+    margin: 4px;
+    font-family: Georgia,'Times New Roman',times,serif;
+	width: 25%;
+}
+
+DIV.header {
+	color: white;
+    background-color: #00cccc;
+}
+
+/*
+SPAN.description {
+	display: none;
+}
+*/

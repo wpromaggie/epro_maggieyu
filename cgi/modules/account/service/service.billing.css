@@ -1,0 +1,14 @@
+
+#charge_table .notes { width:300px; }
+
+#cards h2 { margin-top:24px; }
+#cards .cc_table_wrapper table { margin-bottom:16px; }
+#cards .cc_table_wrapper .cc_code input { width:50px; }
+
+#invoice_data, #invoice_edit {float:left;}
+#invoice_edit {margin-left:15px;}
+#invoice_edit div , #receipt_edit div {margin-bottom:10px;}
+#invoice_edit label , #receipt_edit label {margin-right:5px;}
+
+#copy_card_form { display:none; }
+#copy_card_form tr.card_select_row { display:none; }

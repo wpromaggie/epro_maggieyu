@@ -1,0 +1,5 @@
+
+fieldset#data_progress_widget { float:left; padding:4px 4px 6px 6px; border:1px solid #000000; }
+fieldset#data_progress_widget legend { padding:0 6px; }
+
+fieldset#data_progress_widget td { padding:1px 3px; font:12px arial; }

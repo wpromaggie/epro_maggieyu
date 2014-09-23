@@ -1,0 +1,23 @@
+
+table#cal_table { border-collapse:collapse; }
+
+thead#cal_month_thead tr#cal_month_tr a.nav_link { color:#0000ff; text-decoration:none; }
+thead#cal_month_thead tr#cal_month_tr a.nav_link:hover { color:#ff0000; text-decoration:underline; }
+thead#cal_month_thead tr#cal_month_tr { vertical-align:bottom; }
+thead#cal_month_thead tr#cal_month_tr td#prev_month_td { padding-right:6px; text-align:right; }
+thead#cal_month_thead tr#cal_month_tr td#next_month_td { padding-left:6px; }
+thead#cal_month_thead tr#cal_month_tr th#cur_month { font:24px times; font-weight:bold; }
+
+thead#cal_month_thead tr td.spacer { height:12px; }
+
+thead#cal_days th { padding:2px 0; font-size:120%; font-weight:bold; }
+
+tbody#cal_tbody tr.headers td, tbody#cal_tbody tr.data td { border:1px solid #000000; }
+tbody#cal_tbody tr.headers td { font-size:10px; padding:2px 3px; text-align:right; }
+tbody#cal_tbody tr.headers td.dif_month { color:#a0a0a0; }
+tbody#cal_tbody tr.data { vertical-align:top; }
+tbody#cal_tbody tr.data td { font:10px georgia; width:150px; height:100px; padding:2px 3px; }
+tbody#cal_tbody tr.data td p { padding:0; margin:0; margin-bottom:2px; }
+tbody#cal_tbody tr.data td p a { color:#000000; text-decoration:none; }
+tbody#cal_tbody tr.data td p a.off, tbody#cal_tbody tr.data td p span.off { color:#a0a0a0; }
+tbody#cal_tbody tr.data td p a:hover { background-color:#ffcfff; }

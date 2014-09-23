@@ -1,0 +1,12 @@
+
+#current_data_sources table { border-collapse:collapse; }
+#current_data_sources td, th { padding:2px 4px; }
+#new_data_source { margin:20px 0 0 0; }
+#new_data_source select { width:200px; }
+
+#new_external { display:none; }
+#new_external_instruct {padding-left:23px; padding-bottom:10px; }
+#scheduled_refreshes td { padding:2px 6px; }
+#scheduled_refreshes a { font-size:10px; }
+
+#_schedule_form { margin:12px 0; }

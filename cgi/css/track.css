@@ -1,0 +1,22 @@
+
+#crs
+{
+	width:400px;
+	height:400px;
+}
+
+#track_form
+{
+	padding-top:24px;
+}
+
+#before, #after
+{
+	width:400px;
+	height:600px;
+}
+
+#go
+{
+	margin:0 24px;
+}

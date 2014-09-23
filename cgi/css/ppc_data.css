@@ -1,0 +1,38 @@
+
+#data_crumbs_table { margin:12px 0; }
+#data_crumbs td { padding:0px 4px; font-family:courier; }
+#data_crumbs .crumb_label { font-weight:bold; }
+
+#data_col_headers td { font-weight:bold; text-align:center; cursor:pointer; }
+#data_col_headers td:hover { color:#a1a1ff; text-decoration:underline; }
+
+.data_totals { background-color:#ffffd1; }
+.data_totals td { font-weight:bold; }
+
+#data_body td, .data_totals td, #data_col_headers td { padding:1px 3px; font-size:11px; }
+
+#data_body .row0 { background-color:#ffffff; }
+#data_body .row1 { background-color:#efefef; }
+#data_body .row0:hover, #data_body .row1:hover, .data_totals:hover { background-color:#d1d1ff; }
+
+#data_body .sort_cell { background-color:#d1ffd1; }
+
+#data_none td { text-align:center; font-weight:bold; font-size:150%; }
+
+.bid_change_input { width:32px; }
+.bid_change_help { font-family:arial; font-size:10px; white-space:nowrap; }
+.data_bid_input { width:32px;border:1px solid #000000;font-family:arial;font-size:10px; }
+.bid_change_button { font-weight:bold; }
+
+#filter_container, #dates_container { padding:8px 0 8px 8px; border:0; border-top:1px solid #000000; }
+#filter_container legend, #dates_container legend { padding:0 8px; font-weight:bold; }
+
+#filter_show { padding:3px 0; }
+#filter_show_show { font-size:14px; padding:0 8px 0 4px; }
+#filter_show_text { font:12px arial; padding:0 12px 0 4px; cursor:pointer; }
+
+#date_filter_cell { padding:22px 0 0 17px; }
+#date_filter_div { height:50px; width:16px; border-left:1px solid #6f6f6f; }
+
+.date_label { text-align:right; font-size:11px; padding-right:4px; }
+.date_textfield { width:100px; }

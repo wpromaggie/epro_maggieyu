@@ -1,0 +1,39 @@
+.clear { clear:both;}
+
+textarea.par { width: 500px; height: 150px;}
+
+.list li, .list_small li {float: left; margin: 10px; }
+
+.list textarea{ width: 350px; height: 100px;}
+.list_small textarea{ width: 200px; height: 75px; }
+.list_big textarea { width: 500px; height: 150px;}
+
+/* edit user */
+div#user_guilds table#user td { padding:1px 3px; }
+div#user_guilds table#user table#guilds input[type=checkbox] { margin-right:4px; }
+
+div#guild_roles ul { list-style:disc inside; }
+div#guild_roles td { padding:1px 3px; }
+div#guild_roles tr { vertical-align:top; }
+div#guild_roles textarea { width:250px; height:100px; }
+
+div#jobs table#cur_jobs td { padding:1px 3px; font-size:11px; }
+
+/* userlist */
+#userlist th { padding:2px 6px; text-transform:uppercase; }
+#userlist td { padding:1px 3px; }
+#userlist tbody tr:hover { background-color:#c0ffc0; }
+
+/* user guilds */
+#user_guilds ul { margin-left:4px; list-style-type:none; }
+#user_guilds li ul { margin-left:20px; }
+#user_guilds .guild_role { display:none; }
+
+/* user roles */
+#user_roles #new_user_role_wrapper { display:none; margin:16px; }
+
+/* job */
+#job_details #w_children table { font-size:11px; }
+
+/* cron */
+#cron #w_new_cron_job { display:none; }

@@ -1,0 +1,21 @@
+
+/* index */
+#email_templates .option_label { font-size:14px; font-weight:bold; }
+#email_templates .section { margin:12px 4px; }
+#email_templates .option_on { background-color:#aaffaa; }
+
+#email_templates #template_options td { padding:3px 2px; }
+#email_templates #template_options .cboxes_wrapper span { margin:8px; }
+#email_templates #change_options_buttons { display:none; }
+
+#email_templates #current_edit { margin:20px 0 8px 0; padding:8px; border:1px solid #000000; float:left; }
+
+#email_templates #tpl input[type="text"] { width:256px; }
+#email_templates #tpl textarea[name="email_template_plain"] { width:800px; height:400px; }
+#email_templates #tpl textarea[name="email_template_html"] { width:800px; height:400px; }
+
+/* sample */
+#email_templates #sample h2 { margin-top:20px; }
+#email_templates #sample ul { margin:4px 0 12px 8px; list-style:none; }
+#email_templates #sample #sample_notes { font-size:11px; }
+#email_templates #sample #html_sample { border:2px ridge #787878; padding:12px; width:700px; height:500px; }
